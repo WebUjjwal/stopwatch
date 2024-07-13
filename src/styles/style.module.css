@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap");
+
+.main {
+  /* color: #ff//f; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7c6cff;
+}
+
+.stopwatchCard {
+  background-color: #ffffff49;
+  width: 700px;
+  height: 400px;
+  margin: 0 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.buttons {
+  gap: 20px;
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.buttons button {
+  color: #fff;
+  font-size: 19px;
+  width: 40px;
+
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7c6cff;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stopwatchCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.time {
+  font-size: 65px;
+  font-weight: 600;
+  font-family: "Khand", sans-serif;
+}
+
+@media only screen and (max-width: 409px) {
+  .time {
+    font-size: 35px;
+  }
+
+  .buttons {
+    padding-top: 4px;
+  }
+
+  .buttons button {
+    color: #fff;
+    font-size: 13px;
+    width: 26px;
+    height: 26px;
+  }
+}
